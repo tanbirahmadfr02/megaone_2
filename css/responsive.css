@@ -1,0 +1,1094 @@
+@media (max-width: 575.98px) {
+    /* ======menu part start ==== */
+
+    #main_menu {
+        line-height: 60px;
+    }
+
+    #main_menu img {
+        width: 120px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_menu .toggler_icon {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main_menu ul li a {
+        line-height: 50px;
+    }
+
+    /* ======menu part end ==== */
+
+    /* =======banner part start ======= */
+    #banner_part {
+        padding: 130px 0 100px 0;
+    }
+
+    .area-heading {
+        text-align: center;
+    }
+
+    #banner_part h3 {
+        font-size: 40px;
+    }
+
+    #banner_part h3 span {
+        font-size: 40px;
+    }
+
+    .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    /* =======banner part end ======= */
+
+    /* =======service part start ===== */
+    .feature-item {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feature-item .icon {
+        font-size: 23px;
+        height: 45px;
+        width: 45px;
+    }
+
+    /* =======service part end ===== */
+
+    /* ======corporate part start ====== */
+
+    #corporate_part {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    #corporate_part .title {
+        margin-top: 35px;
+        /*! margin-bottom: 30px; */
+    }
+
+    .heading-area .title {
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+    #project_part {
+        padding: 60px 0;
+    }
+
+    /* ======corporate part end ====== */
+
+    /* =======portfolio part start ===== */
+    #Pfoilio_part .text_main {
+        text-align: center;
+    }
+
+    #Pfoilio_part .project-heading {
+        font-size: 33px;
+    }
+
+    #Pfoilio_part .prevarrow {
+        font-size: 35px;
+        left: 55%;
+    }
+
+    #Pfoilio_part .nextarrow {
+        font-size: 35px;
+        left: 45%;
+    }
+
+    /* =======portfolio part end ===== */
+
+    /* =====pricing part start ===== */
+    .price-card {
+        margin: 30px 0;
+    }
+
+    #pricing_part .btn {
+        margin-top: 0;
+    }
+
+    #pricing_part .pricing-heading {
+        margin: 0 35px;
+    }
+
+    #pricing_part .area-title {
+        font-size: 36px;
+    }
+
+    #pricing_part .area-title strong {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* =====pricing part end ===== */
+
+    /* =====review part start ===== */
+    #reviews_part .reviews .review-body {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    #reviews_part .nextarrow {
+        right: -35px;
+    }
+
+    #reviews_part .prevarrow {
+        left: -35px;
+    }
+
+    #contact_part .form-control {
+        height: 70px;
+    }
+
+    #contact_part textarea {
+        height: 110px !important;
+    }
+
+    #contact_part .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* =====review part end ===== */
+
+    /* =====contact second part start ==== */
+    .location-details {
+        text-align: center;
+    }
+
+    /* =====contact second part end ==== */
+
+    /* =====ending part start ==== */
+    .company-about a {
+        font-size: 15px;
+    }
+
+    #ending_part {
+        padding: 50px 0;
+    }
+
+    /* =====ending part end ==== */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ======menu part start ==== */
+
+    #main_menu {
+        line-height: 60px;
+    }
+
+    #main_menu img {
+        width: 120px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_menu .toggler_icon {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main_menu ul li a {
+        line-height: 50px;
+    }
+
+    /* ======menu part end ==== */
+
+    /* =======banner part start ======= */
+    #banner_part {
+        padding: 130px 0 100px 0;
+    }
+
+    .area-heading {
+        text-align: center;
+    }
+
+    #banner_part h3 {
+        font-size: 40px;
+    }
+
+    #banner_part h3 span {
+        font-size: 40px;
+    }
+
+    .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    /* =======banner part end ======= */
+
+    /* =======service part start ===== */
+    .feature-item {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feature-item .icon {
+        font-size: 23px;
+        height: 45px;
+        width: 45px;
+    }
+
+    /* =======service part end ===== */
+
+    /* ======corporate part start ====== */
+
+    #corporate_part {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    #corporate_part .title {
+        margin-top: 35px;
+        /*! margin-bottom: 30px; */
+    }
+
+    .heading-area .title {
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+    #project_part {
+        padding: 60px 0;
+    }
+
+    /* ======corporate part end ====== */
+
+    /* =======portfolio part start ===== */
+    #Pfoilio_part .text_main {
+        text-align: center;
+    }
+
+    #Pfoilio_part .project-heading {
+        font-size: 33px;
+    }
+
+    #Pfoilio_part .prevarrow {
+        font-size: 35px;
+        left: 55%;
+    }
+
+    #Pfoilio_part .nextarrow {
+        font-size: 35px;
+        left: 45%;
+    }
+
+    /* =======portfolio part end ===== */
+
+    /* =====pricing part start ===== */
+    .price-card {
+        margin: 30px 0;
+    }
+
+    #pricing_part .btn {
+        margin-top: 0;
+    }
+
+    #pricing_part .pricing-heading {
+        margin: 0 35px;
+    }
+
+    #pricing_part .area-title {
+        font-size: 36px;
+    }
+
+    #pricing_part .area-title strong {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* =====pricing part end ===== */
+
+    /* =====review part start ===== */
+    #reviews_part .reviews .review-body {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    #reviews_part .nextarrow {
+        right: -35px;
+    }
+
+    #reviews_part .prevarrow {
+        left: -35px;
+    }
+
+    #contact_part .form-control {
+        height: 70px;
+    }
+
+    #contact_part textarea {
+        height: 110px !important;
+    }
+
+    #contact_part .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* =====review part end ===== */
+
+    /* =====contact second part start ==== */
+    .location-details {
+        text-align: center;
+    }
+
+    /* =====contact second part end ==== */
+
+    /* =====ending part start ==== */
+    .company-about a {
+        font-size: 15px;
+    }
+
+    #ending_part {
+        padding: 50px 0;
+    }
+
+    /* =====ending part end ==== */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ======menu part start ==== */
+
+    #main_menu {
+        line-height: 60px;
+    }
+
+    #main_menu img {
+        width: 120px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_menu .toggler_icon {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main_menu ul li a {
+        line-height: 50px;
+    }
+
+    /* ======menu part end ==== */
+
+    /* =======banner part start ======= */
+    #banner_part {
+        padding: 156px 0 138px 0;
+    }
+
+    .area-heading {
+        text-align: center;
+    }
+
+    #banner_part h3 {
+        font-size: 43px;
+    }
+
+    #banner_part h3 span {
+        font-size: 45px;
+    }
+
+    .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    /* =======banner part end ======= */
+
+    /* =======service part start ===== */
+    .feature-item {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feature-item .icon {
+        font-size: 23px;
+        height: 45px;
+        width: 45px;
+    }
+
+    /* =======service part end ===== */
+
+    /* ======corporate part start ====== */
+
+    #corporate_part {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    #corporate_part .title {
+        margin-top: 35px;
+        /*! margin-bottom: 30px; */
+    }
+
+    .heading-area .title {
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+    #project_part {
+        padding: 60px 0;
+    }
+
+    /* ======corporate part end ====== */
+
+    /* =======portfolio part start ===== */
+    #Pfoilio_part .text_main {
+        text-align: center;
+    }
+
+    #Pfoilio_part .project-heading {
+        font-size: 33px;
+    }
+
+    #Pfoilio_part .prevarrow {
+        font-size: 35px;
+        left: 55%;
+    }
+
+    #Pfoilio_part .nextarrow {
+        font-size: 35px;
+        left: 45%;
+    }
+
+    /* =======portfolio part end ===== */
+
+    /* =====pricing part start ===== */
+    .price-card {
+        margin: 30px 0;
+    }
+
+    #pricing_part .btn {
+        margin-top: 0;
+    }
+
+    #pricing_part .pricing-heading {
+        margin: 0 35px;
+    }
+
+    #pricing_part .area-title {
+        font-size: 36px;
+    }
+
+    #pricing_part .area-title strong {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* =====pricing part end ===== */
+
+    /* =====review part start ===== */
+    #reviews_part .reviews .review-body {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    #reviews_part .nextarrow {
+        right: -35px;
+    }
+
+    #reviews_part .prevarrow {
+        left: -35px;
+    }
+
+    #contact_part .form-control {
+        height: 70px;
+    }
+
+    #contact_part textarea {
+        height: 110px !important;
+    }
+
+    #contact_part .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* =====review part end ===== */
+
+    /* =====contact second part start ==== */
+    .location-details {
+        text-align: center;
+    }
+
+    /* =====contact second part end ==== */
+
+    /* =====ending part start ==== */
+    .company-about a {
+        font-size: 19px;
+    }
+
+    #ending_part {
+        padding: 70px 0;
+    }
+
+    /* =====ending part end ==== */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ======menu part start ==== */
+
+    #main_menu {
+        line-height: 60px;
+    }
+
+    #main_menu img {
+        width: 120px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_menu .toggler_icon {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main_menu ul li a {
+        line-height: 50px;
+    }
+
+    /* ======menu part end ==== */
+
+    /* =======banner part start ======= */
+    #banner_part {
+        padding: 156px 0 138px 0;
+    }
+
+    .area-heading {
+        text-align: center;
+    }
+
+    #banner_part h3 {
+        font-size: 45px;
+    }
+
+    #banner_part h3 span {
+        font-size: 47px;
+    }
+
+    .btn {
+        padding: 9px 35px;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    /* =======banner part end ======= */
+
+    /* =======service part start ===== */
+    .feature-item {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feature-item .icon {
+        font-size: 23px;
+        height: 45px;
+        width: 45px;
+    }
+
+    /* =======service part end ===== */
+
+    /* ======corporate part start ====== */
+
+    #corporate_part {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    #corporate_part .title {
+        margin-top: 35px;
+        /*! margin-bottom: 30px; */
+    }
+
+    .heading-area .title {
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+    #project_part {
+        padding: 60px 0;
+    }
+
+    /* ======corporate part end ====== */
+
+    /* =======portfolio part start ===== */
+    #Pfoilio_part .text_main {
+        text-align: center;
+    }
+
+    #Pfoilio_part .project-heading {
+        font-size: 40px;
+    }
+
+    #Pfoilio_part .prevarrow {
+        font-size: 35px;
+        left: 15%;
+    }
+
+    #Pfoilio_part .nextarrow {
+        font-size: 35px;
+        left: 10%;
+    }
+
+    /* =======portfolio part end ===== */
+
+    /* =====pricing part start ===== */
+    .price-card {
+        margin: 30px 0;
+    }
+
+    #pricing_part .btn {
+        margin-top: 20px;
+    }
+
+    #pricing_part .pricing-heading {
+        margin: 0 35px;
+    }
+
+    #pricing_part .area-title {
+        font-size: 40px;
+    }
+
+    #pricing_part .area-title strong {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* =====pricing part end ===== */
+
+    /* =====review part start ===== */
+    #reviews_part .reviews .review-body {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+
+    #contact_part .form-control {
+        height: 70px;
+    }
+
+    #contact_part textarea {
+        height: 110px !important;
+    }
+
+    #contact_part .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* =====review part end ===== */
+
+    /* =====contact second part start ==== */
+    .location-details {
+        text-align: center;
+    }
+
+    /* =====contact second part end ==== */
+
+    /* =====ending part start ==== */
+    .company-about a {
+        font-size: 19px;
+    }
+
+    #ending_part {
+        padding: 70px 0;
+    }
+
+    /* =====ending part end ==== */
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* ======menu part start ==== */
+
+    #main_menu {
+        line-height: 60px;
+    }
+
+    #main_menu img {
+        width: 120px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_menu .toggler_icon {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main_menu ul li a {
+        line-height: 50px;
+    }
+
+    /* ======menu part end ==== */
+
+    /* =======banner part start ======= */
+    #banner_part {
+        padding: 200px 0 175px 0;
+    }
+
+    .area-heading {
+        text-align: center;
+    }
+
+    #banner_part h3 {
+        font-size: 45px;
+    }
+
+    #banner_part h3 span {
+        font-size: 47px;
+    }
+
+    .btn {
+        padding: 10px 40px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    /* =======banner part end ======= */
+
+    /* =======service part start ===== */
+    .feature-item {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feature-item .icon {
+        font-size: 28px;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* =======service part end ===== */
+
+    /* ======corporate part start ====== */
+
+    #corporate_part {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    #corporate_part .title {
+        margin-top: 35px;
+        /*! margin-bottom: 30px; */
+    }
+
+    .heading-area .title {
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+    #project_part {
+        padding: 60px 0;
+    }
+
+    /* ======corporate part end ====== */
+
+    /* =======portfolio part start ===== */
+    #Pfoilio_part .text_main {
+        text-align: center;
+    }
+
+    #Pfoilio_part .project-heading {
+        font-size: 40px;
+    }
+
+    #Pfoilio_part .prevarrow {
+        font-size: 35px;
+        left: 15%;
+    }
+
+    #Pfoilio_part .nextarrow {
+        font-size: 35px;
+        left: 10%;
+    }
+
+    /* =======portfolio part end ===== */
+
+    /* =====pricing part start ===== */
+    .price-card {
+        margin: 30px 0;
+    }
+
+    #pricing_part .btn {
+        margin-top: 20px;
+    }
+
+    #pricing_part .pricing-heading {
+        margin: 0 35px;
+    }
+
+    #pricing_part .area-title {
+        font-size: 40px;
+    }
+
+    #pricing_part .area-title strong {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* =====pricing part end ===== */
+
+    /* =====review part start ===== */
+    #reviews_part .reviews .review-body {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+
+    #contact_part .form-control {
+        height: 70px;
+    }
+
+    #contact_part textarea {
+        height: 110px !important;
+    }
+
+    #contact_part .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* =====review part end ===== */
+
+    /* =====contact second part start ==== */
+    .location-details {
+        text-align: center;
+    }
+
+    /* =====contact second part end ==== */
+
+    /* =====ending part start ==== */
+    .company-about a {
+        font-size: 19px;
+    }
+
+    #ending_part {
+        padding: 70px 0;
+    }
+
+    /* =====ending part end ==== */
+}
+
+@media (min-width: 1400px) {
+    /* ======menu part start ==== */
+
+    #main_menu {
+        line-height: 60px;
+    }
+
+    #main_menu img {
+        width: 120px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #main_menu .toggler_icon {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main_menu ul li a {
+        line-height: 50px;
+    }
+
+    /* ======menu part end ==== */
+
+    /* =======banner part start ======= */
+    #banner_part {
+        padding: 200px 0 175px 0;
+    }
+
+    .area-heading {
+        text-align: center;
+    }
+
+    #banner_part h3 {
+        font-size: 45px;
+    }
+
+    #banner_part h3 span {
+        font-size: 47px;
+    }
+
+    .btn {
+        padding: 10px 40px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    /* =======banner part end ======= */
+
+    /* =======service part start ===== */
+    .feature-item {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feature-item .icon {
+        font-size: 28px;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* =======service part end ===== */
+
+    /* ======corporate part start ====== */
+
+    #corporate_part {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    #corporate_part .title {
+        margin-top: 35px;
+        /*! margin-bottom: 30px; */
+    }
+
+    .heading-area .title {
+        color: #FFFFFF;
+        font-size: 34px;
+    }
+
+    #project_part {
+        padding: 60px 0;
+    }
+
+    /* ======corporate part end ====== */
+
+    /* =======portfolio part start ===== */
+    #Pfoilio_part .text_main {
+        text-align: center;
+    }
+
+    #Pfoilio_part .project-heading {
+        font-size: 40px;
+    }
+
+    #Pfoilio_part .prevarrow {
+        font-size: 35px;
+        left: 15%;
+    }
+
+    #Pfoilio_part .nextarrow {
+        font-size: 35px;
+        left: 10%;
+    }
+
+    /* =======portfolio part end ===== */
+
+    /* =====pricing part start ===== */
+    .price-card {
+        margin: 30px 0;
+    }
+
+    #pricing_part .btn {
+        margin-top: 20px;
+    }
+
+    #pricing_part .pricing-heading {
+        margin: 0 35px;
+    }
+
+    #pricing_part .area-title {
+        font-size: 40px;
+    }
+
+    #pricing_part .area-title strong {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    /* =====pricing part end ===== */
+
+    /* =====review part start ===== */
+    #reviews_part .reviews .review-body {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+
+    #contact_part .form-control {
+        height: 70px;
+    }
+
+    #contact_part textarea {
+        height: 110px !important;
+    }
+
+    #contact_part .btn {
+        padding: 9px 25px;
+        margin-top: 23px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* =====review part end ===== */
+
+    /* =====contact second part start ==== */
+    .location-details {
+        text-align: center;
+    }
+
+    /* =====contact second part end ==== */
+
+    /* =====ending part start ==== */
+    .company-about a {
+        font-size: 19px;
+    }
+
+    #ending_part {
+        padding: 70px 0;
+    }
+
+    /* =====ending part end ==== */
+}

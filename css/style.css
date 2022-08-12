@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #696969;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+/* ======menu part start ======= */
+#main_menu {
+    line-height: 90px;
+    z-index: 999;
+    background: #ffffff;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: 999;
+    width: 100%;
+    transition: 1s;
+    padding: 15px 0;
+    line-height: 50px;
+}
+
+#main_menu.sticky {
+    position: fixed;
+    background-color: #45B8AC;
+    top: 0;
+    padding: 5px 0;
+
+}
+
+#main_menu.sticky ul li a {
+    color: white;
+}
+
+#main_menu.sticky .toggler_icon i {
+    color: white;
+}
+
+#main_menu ul li a {
+    font-size: 16px;
+    color: black;
+    transition: .3s;
+    margin: 0 15px;
+    position: relative;
+    padding: 0;
+}
+
+#main_menu ul li a::before {
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #00bcd4;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#main_menu ul li a:hover {
+    color: #00bcd4;
+}
+
+#main_menu ul li a .avtive::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ======menu part ene ======= */
+
+/* =====banner part start ====== */
+#banner_part {
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 130px 0 170px 0;
+    background-attachment: fixed;
+}
+
+.text-lg-left {
+    text-align: left;
+}
+
+#banner_part h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    color: white;
+}
+
+#banner_part h3 span {
+    font-weight: 700;
+}
+
+.single-items p {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.btn {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff !important;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 9px 34px;
+    transition: .3s;
+    border: 2px solid white;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background: #ffffff !important;
+    color: #585858 !important;
+}
+
+/* =====banner part end ====== */
+
+/* ======service part strat======  */
+#service_part {
+    background: url(../img/service\ banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 70px 0;
+    background-attachment: fixed;
+}
+
+.feature-item {
+    margin-right: 30px;
+    padding: 18px 25px;
+    text-align: left;
+    background-color: transparent;
+    border: solid 2px #fff;
+    transition: .8s ease;
+}
+
+.feature-item:hover {
+    background-color: white;
+}
+
+.feature-item .icon {
+    font-size: 23px;
+    height: 45px;
+    width: 45px;
+    background-color: #00bcd4;
+    border-radius: 50px;
+    color: #fff;
+    transition: .8s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-item:hover .icon {
+    background-color: black;
+}
+
+.feature-item .title {
+    margin: 16px 0 6px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.feature-item:hover .title {
+    color: black;
+}
+
+.feature-item p {
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #fff;
+    opacity: .8;
+    transition: .3s;
+}
+
+.feature-item:hover p {
+    color: black;
+}
+
+.feature-item a {
+    display: block;
+    text-align: right !important;
+}
+
+.feature-item a i {
+    font-size: 25px;
+    font-weight: 900;
+    color: #d5d3d3;
+    transition: .3s;
+}
+
+.feature-item:hover a i {
+    color: black;
+}
+
+.spcl_item {
+    margin-top: 20px;
+}
+
+/* ======service part end======  */
+
+/* ========corporate part start =======*/
+#corporate_part {
+    background: url(../img/corporate\ banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+.heading-area .sub-title {
+    color: #FFFFFF;
+}
+
+.heading-area .title {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+#corporate_part .barfiler h6,
+.barfiler p {
+    color: white;
+    line-height: .5;
+}
+
+#corporate_part .title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#corporate_part .fill {
+    background-color: black !important;
+    border-radius: 10px !important;
+}
+
+#corporate_part .barfiller {
+    background-color: white !important;
+    border-radius: 10px !important;
+}
+
+/* ========corporate part end ======= */
+
+/* =====project part start ===== */
+#project_part {
+    background: url(../img/project\ banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+    background-attachment: fixed;
+}
+
+#project_part .counters i {
+    font-size: 40px;
+    display: block;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#project_part .counters .content {
+    display: inline-block;
+    color: #FFFFFF;
+    transition: .8s ease;
+}
+
+/* =====project part end ===== */
+
+/* ======portfolio part start ======== */
+#Pfoilio_part .slider_item {
+    background: url(../img/portfolio\ banner\ 1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+#Pfoilio_part .slider_item_2 {
+    background: url(../img/portfolio\ banner\ 2.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+#Pfoilio_part .slider_item_3 {
+    background: url(../img/portfolio\ banner\ 3.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+#Pfoilio_part .slider_item_4 {
+    background: url(../img/portfolio\ banner\ 4.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+#Pfoilio_part .project-heading {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#Pfoilio_part .project-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.slider_4_heading {
+    color: black !important;
+}
+
+.slider_4_pera {
+    color: black !important;
+}
+
+.btn_special {
+    border-color: #000000;
+    color: #000000 !important;
+    border: 2px solid black;
+}
+
+.btn_special:hover {
+    background: #000000 !important;
+    color: #fff !important;
+}
+
+#Pfoilio_part .prevarrow {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 170px;
+    z-index: 99;
+}
+
+#Pfoilio_part .nextarrow {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    z-index: 99;
+}
+
+/* ======portfolio part end ======== */
+
+/* ======pricing part start ====== */
+#pricing_part {
+    background: url(../img/pricing\ background.jpg) no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+    background-attachment: fixed;
+}
+
+#pricing_part .area-title {
+    font-size: 48px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#pricing_part .area-title strong {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#pricing_part .pricing-heading {
+    font-size: 26px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-bottom: dashed 1px #FFFFFF;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#pricing_part .pricing-body {
+    min-height: 280px;
+    text-align: center;
+}
+
+#pricing_part .pricing-detail {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: .8;
+    padding-top: 12px;
+}
+
+#pricing_part .price-text {
+    font-size: 38px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#pricing_part .pricing-features li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+#pricing_part footer {
+    text-align: center;
+}
+
+/* ======pricing part end ====== */
+
+/* =====reviews part start ====== */
+#reviews_part {
+    background: url(../img/reviwe\ banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+#reviews_part .reviews .review-body {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 15px;
+    padding-bottom: 80px;
+}
+
+#reviews_part .user-comment {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#reviews_part .comment-date {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#reviews_part .review-stars {
+    margin-bottom: 0;
+}
+
+#reviews_part .user-img {
+    height: 100px;
+    width: 100px;
+    border: solid 2px #FFFFFF;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 15px #918f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews_part .user-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    color: #FFFFFF;
+}
+
+#reviews_part .user-designation {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: .7;
+}
+
+#reviews_part .prevarrow {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    left: -42px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#reviews_part .nextarrow {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    right: -45px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+
+/* =====reviews part end ====== */
+
+/* ======contact part start ====== */
+#contact_part {
+    background: url(../img/contact\ banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 70px 0;
+    background-attachment: fixed;
+}
+
+#contact_part .contact-box .small-heading {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+#contact_part h4 {
+    color: white;
+}
+
+#contact_part p {
+    color: white;
+}
+
+#contact_part .contact-box .small-text {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+#contact_part .contact-form .my-form input::placeholder {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#contact_part .contact-form .my-form .form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#contact_part .contact-form .my-form input {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+#contact_part .form-control {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: transparent;
+    resize: none;
+}
+
+#contact_part .contact-form .my-form textarea::placeholder {
+    color: #FFFFFF;
+}
+
+#contact_part a {
+    width: 100%;
+    background-color: white;
+    color: black !important;
+    transition: .3s;
+}
+
+#contact_part a:hover {
+    background-color: #00bcd4 !important;
+    border-color: #00bcd4;
+    color: white !important;
+}
+
+/* ======contact part end ====== */
+
+/* =====contact second part start ======== */
+#contact_second {
+    background: url(../img/contact\ second\ banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 120px 0;
+    background-attachment: fixed;
+}
+
+#contact_second .contact-heading {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#contact_second .contact-address {
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: .8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#contact_second .contact-list li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: .8;
+}
+
+#contact_second .contact-list li:nth-child(even) {
+    margin-bottom: 20px;
+}
+
+#contact_second .social_icon {
+    margin-top: 30px;
+}
+
+#contact_second .social_icon i {
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+}
+
+/* =====contact second part end ======== */
+
+/* =====map part start ====== */
+#map_part iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* =====map part end ====== */
+
+/* ========ending part start ======= */
+#ending_part {
+    padding: 120px 0;
+    text-align: center;
+}
+
+#ending_part .social_icon a {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: .3s;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: gray;
+}
+
+#ending_part a:hover {
+    background-color: #00bcd4;
+    color: white;
+}
+
+.company-about {
+    font-size: 13px;
+}
+
+.company-about a {
+    font-size: 20px;
+    color: #00bcd4;
+}
+
+/* ========ending part end ======= */
+
+/* ==========back to top part ======= */
+.back_to_top {
+    height: 35px;
+    width: 35px;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    top: 10%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 1s;
+}
+
+.back_to_top i {
+    font-size: 25px;
+    color: white;
+}
+
+.bottom_to_top {
+    opacity: 1;
+    visibility: visible;
+    top: 90%;
+    animation: top 2s linear;
+    transform: scale(1.2);
+}
+
+@keyframes top {
+    0% {
+        top: 10%;
+    }
+
+    50% {
+        top: 95%;
+    }
+
+    100% {
+        top: 90%;
+    }
+}
+
+/* ==========back to top part ======= */
